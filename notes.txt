@@ -1,4 +1,10 @@
 ====================================		CSS     		==================================
 
+Three ways of writing CSS
+
+1.  External
+2.  Inline 
+3.  Internal
+
 
         												
