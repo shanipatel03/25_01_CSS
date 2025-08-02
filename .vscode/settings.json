@@ -59,6 +59,7 @@
   "files.associations": {
     "*.ejs": "html",
     "21-07HW.C": "cpp",
-    "TRIANGLE.C": "cpp"
+    "TRIANGLE.C": "cpp",
+    "HOTELMEN.C": "cpp"
   }
 }

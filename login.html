@@ -5,11 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
+<style>
+    div
+    {
+        border: 1px solid black;
+        width: fit-content;
+        padding: 20px;
+        background-color: chocolate;
+        border-radius: 10px;
+    }
+    label
+    {
+        font-weight: bold;
+        display: inline-block; /*allows to set a width and height on the element.*/
+        width: 100px;
+    }
+    input
+    {
+        border-radius: 5px;
+        padding: 5px;
+    }
+</style>
 <body>
     <div>
-        <form>
+        <form >
             <label>Email : </label>
-            <input type="email" name="email">
+            <input type="email" name="email"> <br> <br>
+            <label>Password : </label>
+            <input type="password" name="pwd"> <br> <br>
+            <input type="button" value="Login">
         </form>
     </div>
 </body>
