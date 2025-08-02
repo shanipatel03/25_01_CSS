@@ -6,20 +6,74 @@
     <title>Document</title>
 </head>
 <style>
-    div
+    .box
     {
-        width: fit-content;
         border: 1px solid black;
+        width: fit-content;
         padding: 20px;
         box-shadow: 5px 5px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
+
+    .boxGrey
+    {
+        box-shadow: 5px 5px grey; /*5px 5px verticle horizontal */
+    }
+
+    .blur
+    {
+        border: 1px solid black;
+        width: fit-content;
+        padding: 20px;
+        box-shadow: 5px 5px 50px grey; /* 50px blur effect*/
+        margin-bottom: 100px;
+    }
+
+    .greyTop
+    {
+        border: 1px solid black;
+        width: fit-content;
+        padding: 20px;
+        /* box-shadow: ; */
+        box-shadow: 0px -5px 5px 3px gray;
+        margin-bottom: 50px;
+    }
+
+    .greyLeft
+    {
+        border: 1px solid black;
+        width: fit-content;
+        padding: 20px;
+        box-shadow: -2px 0px 5px 5px grey;
+        margin-bottom: 50px;
+    }
+
+    /* .white
+    {
+        border: 1px solid black;
+        padding: 30px;
+        width: fit-content;
+        box-shadow: 10px 10px 10px whitesmoke;
+        border: none;
+    } */
 </style>
 <body>
-    <div>This is Box Shadow</div>
+    <div class="box">
+        This is Box Shadow
+    </div>
 
-    <div>This is Box Shadow grey</div>
+    <div class="box boxGrey">
+        This is Box Shadow grey
+    </div>
 
-    <div>This is Box Shadow Grey Blur </div>
+    <div class="blur">This is Box Shadow Grey Blur</div>
+
+    <div class="greyTop">This is Box Shadow Grey TOP</div>
+
+    <!-- <div class="white">Login</div> -->
+    
+    <div class="greyLeft">This is Box Shadow Grey Left</div>
+
+    <div style="padding: 40px; box-shadow: inset 5px 5px 10px grey, 5px 5px 10px rgba(0, 0, 0 , 0.2); ">This is Something NEW</div>
 </body>
 </html>
