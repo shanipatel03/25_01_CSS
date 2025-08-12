@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    h2
+    {
+        text-align: center;
+        /* background-color: rgb(69, 67, 67);
+        color: white; */
+        margin-bottom: 20px;
+    }
+
+    .login-box
+    {
+        background-color: #1e1e2f;
+        padding: 30px 40px;
+        border-radius: 10px;
+        color: white;
+        width: 300px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    }
+
+    input
+    {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 10px 0;
+        border: none;
+        box-sizing: border-box;
+    }
+
+    button
+    {
+        width: 100%;
+        padding: 10px;
+        background-color: #3399ff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 2px;
+        /* margin: 5px; */
+    }
+
+    .login-box button:hover
+    {
+        background-color: #287dc4;
+    }
+
+    .login-box .signup
+    {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .login-box .signup a
+    {
+        color: #f5c518;
+        text-decoration: none;
+    }
+
+    .login-box .signup a:hover
+    {
+        text-decoration: underline;
+    }
+</style>
+<body>
+    <div class="login-box">
+        <form action="#">
+            <h2>User Login</h2>
+            <label for="id">Username </label>
+            <input type="text" id="id" name="user">
+            <label for="pwd">Password </label>
+            <input type="password" id="pwd" name="pwd">
+            <button type="submit">Login</button>
+        </form>
+
+        <div class="signup">
+            New user? <a href="#">Create account</a>
+        </div>
+    </div>
+</body>
+</html>
